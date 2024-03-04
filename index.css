@@ -1,62 +1,116 @@
 
+/*CSS consultorio nutricionista*/
 
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    padding: 0;
+}
 
-h1 {  
+.container1 h1{  
+
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(237, 80, 23);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     font-size: 90px;
-    text-align: center;
     text-transform: uppercase;
+    align-items: center;
 }
 
 h2 {
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
     font-size: 70px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 50px;
     text-align: center;
     font-weight: bold;
 }
 
 
-h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    font-size: 60px;
-    text-align: center;
-    margin-top: 20px;
-    border-radius: 8px;
-    padding: 20px;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    text-align: end;
 }
 
-li {
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    font-size: 35px; 
-    text-align:start;
 
+nav li {
+    display: inline;
+    margin-right: 20px;
 }
+
+nav a {
+    text-decoration: none;
+    color: #333; /* Cor do texto */
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f8a712; /* Cor ao passar o mouse sobre o link */
+}
+
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
-    margin: auto;
-    padding: auto;
-    background-color: rgb(248, 249, 245)
+    background-color: white;
+
 }
 
-.about, .services, .advantages, .contact {
+.about {
     background-color: #ff9c1c;
     margin-top: 20px;
     border-radius: 42px;
     padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+} 
+
+
+.services {
+    background-color: #ff9c1c;
+    margin-top: 20px;
+    border-radius: 42px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+
+} 
+
+.advantages {
+    background-color: hsl(34, 100%, 55%);
+    margin-top: 20px;
+    border-radius: 42px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+.contact {
+    background-color: #ff9c1c;
+    margin-top: 20px;
+    border-radius: 42px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
    
 
 }
 
-.header {
-    background-color: whitesmoke;
-
-}
 
 .contact.contact form {
     display: flex;
@@ -73,20 +127,23 @@ body {
 
 .contact.contact form input,
 .contact.contact textarea {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
 }
 
 .contact.contact form button {
     background-color: #1bd121;
     color: white;
-    padding: 15px;
+    padding: 30px;
     cursor: pointer;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
+    justify-content: center;
 
 }
 
@@ -100,11 +157,12 @@ footer {
     width: auto;
     height: auto;
     padding: 20px;
+    border-radius: 42px;
 
 }
 
 p {
-    font-family: 'verdana';
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
     color: black;
     margin: auto;
